@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'q!x2w%iioee32u&)r(=hn+lpw9^7l2
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ghastly-phantom-63237.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
