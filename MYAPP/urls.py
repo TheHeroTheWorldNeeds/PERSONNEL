@@ -10,7 +10,7 @@ urlpatterns = [
     path('api/departments/<str:pk>', views.departments_detail),
 
     url(r'^api/positions$', views.positions_list),
-    path('api/positions/<str:pk>', views.departments_detail),
+    path('api/positions/<str:pk>', views.positions_detail),
 
     url(r'^api/salaries$', views.salaries_list),
     url(r'^api/salaries/(?P<pk>[0-9]+)$', views.salaries_detail),
